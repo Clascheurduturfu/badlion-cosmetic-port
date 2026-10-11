@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-11",
+  "projectUrl": "https://modrinth.com/mod/badlion-cosmetic-port",
+  "statusAtSubmission": "under_review",
+  "visibility": "unlisted",
+  "license": "All-Rights-Reserved",
+  "externalAssetsRequired": true,
+  "disclosures": [
+    "ai-generated-code",
+    "ai-generated-text",
+    "derivative-content"
+  ],
+  "versions": [
+    {
+      "target": "forge-1.8.9",
+      "versionNumber": "0.5.0-forge-1.8.9",
+      "versionId": "JTX5O3gp",
+      "versionType": "beta",
+      "file": "badlion-cosmetic-port-forge-0.5.0.jar",
+      "sha256": "a01bf9379ab1b7b380c8dd2e2c045ea17347aa8cd53a31079539e952cb3a6dba",
+      "minecraft": "1.8.9",
+      "loader": "forge",
+      "environment": "client-only",
+      "requiredDependencies": []
+    },
+    {
+      "target": "forge-1.12.2",
+      "versionNumber": "0.5.0-forge-1.12.2",
+      "versionId": "NVunCLyu",
+      "versionType": "beta",
+      "file": "badlion-cosmetic-port-forge-1.12.2-0.5.0.jar",
+      "sha256": "8c5f457c8ad6506d2d1bae7d94c0c00d16db057eb09c4ce35029378af7905d66",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "environment": "client-only",
+      "requiredDependencies": []
+    },
+    {
+      "target": "fabric-1.20.1",
+      "versionNumber": "0.5.0-fabric-1.20.1",
+      "versionId": "CpjCbthP",
+      "versionType": "beta",
+      "file": "badlion-cosmetic-port-fabric-1.20.1-0.5.0.jar",
+      "sha256": "8dde3735180121b1afe6b4b88a9d3ecdc0572e749fe6192fe955bf1258887a18",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "environment": "client-only",
+      "requiredDependencies": [
+        "fabric-api"
+      ]
+    },
+    {
+      "target": "fabric-1.21.1",
+      "versionNumber": "0.5.0-fabric-1.21.1",
+      "versionId": "zr2nDJ3e",
+      "versionType": "beta",
+      "file": "badlion-cosmetic-port-fabric-1.21.1-0.5.0.jar",
+      "sha256": "d6d7f4a11dca66433c56472bc91799ddceebd993c8c85e583ccdee08c4700e0c",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "environment": "client-only",
+      "requiredDependencies": [
+        "fabric-api"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 A client-side mod that renders cached Badlion cosmetics in ordinary Minecraft. Choose cosmetics locally with a searchable browser, original models, original-resolution textures and animated frames. Badlion and Lunar do not need to be running.
 
+**Modrinth submission:** [Badlion Cosmetic Port](https://modrinth.com/mod/badlion-cosmetic-port) was submitted for moderator review on 2026-10-11 with four 0.5.0 beta builds. Visibility is **unlisted**, with AI-assisted code/text and derivative-content disclosures. This submission record does not mean the project has been approved; check Modrinth for its current status. Cosmetic assets remain separate and are not included in those downloads. See [publication notes](docs/modrinth-publication.md).
+
 This workspace also contains a **separate Windows native catalog unlocker** for a specific Badlion client build. The standalone mods and the native unlocker have different installation paths and capabilities.
 
 ## Minecraft versions
