@@ -1,0 +1,30 @@
+buildscript {
+    repositories { maven { url = 'https://maven.minecraftforge.net/' }; mavenCentral() }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.197' }
+}
+apply plugin: 'net.minecraftforge.gradle'
+version = '0.5.0'
+group = 'local.badlioncosmeticport'
+archivesBaseName = 'badlion-cosmetic-port-forge-1.12.2'
+sourceCompatibility = targetCompatibility = '1.8'
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+    runs { client { workingDirectory project.file('run') } }
+}
+repositories { mavenCentral() }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2864'
+    compile 'org.joml:joml:1.10.5'
+}
+sourceSets.main.java.srcDir '../shared/src/main/java'
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand version: project.version, mcversion: '1.12.2' }
+}
+jar {
+    from { configurations.compile.findAll { it.name.startsWith('joml-') }.collect { zipTree(it) } }
+    exclude 'META-INF/*.SF', 'META-INF/*.RSA', 'META-INF/*.DSA', 'module-info.class', 'META-INF/versions/**'
+}
+jar.finalizedBy('reobfJar')
+
+jar { manifest { attributes("FMLCorePlugin": "local.badlioncosmeticport.core.WeaponPlugin", "FMLCorePluginContainsFMLMod": "true") } }

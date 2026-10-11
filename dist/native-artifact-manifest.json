@@ -1,0 +1,7 @@
+{
+  "sourceVersion": "0.1.4",
+  "artifact": "version.dll",
+  "sha256": "39c48d082c96e8538dd496351573adbdb6d2975b63a8a484be8f0ce29c210cde",
+  "historicalBuildReportVersion": "0.1.3",
+  "macRuntimeTest": "not applicable: Windows DLL"
+}

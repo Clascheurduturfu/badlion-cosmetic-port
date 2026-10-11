@@ -1,0 +1,56 @@
+{
+  "version": "0.5.0",
+  "artifacts": [
+    {
+      "target": "forge-1.8.9",
+      "minecraft": "1.8.9",
+      "loader": "forge",
+      "version": "0.5.0",
+      "file": "badlion-cosmetic-port-forge-0.5.0.jar",
+      "sha256": "a01bf9379ab1b7b380c8dd2e2c045ea17347aa8cd53a31079539e952cb3a6dba",
+      "bytes": 852752,
+      "classMajor": 52,
+      "minimumJava": 8
+    },
+    {
+      "target": "forge-1.12.2",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "version": "0.5.0",
+      "file": "badlion-cosmetic-port-forge-1.12.2-0.5.0.jar",
+      "sha256": "8c5f457c8ad6506d2d1bae7d94c0c00d16db057eb09c4ce35029378af7905d66",
+      "bytes": 850978,
+      "classMajor": 52,
+      "minimumJava": 8
+    },
+    {
+      "target": "fabric-1.20.1",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "version": "0.5.0",
+      "file": "badlion-cosmetic-port-fabric-1.20.1-0.5.0.jar",
+      "sha256": "8dde3735180121b1afe6b4b88a9d3ecdc0572e749fe6192fe955bf1258887a18",
+      "bytes": 147766,
+      "classMajor": 61,
+      "minimumJava": 17
+    },
+    {
+      "target": "fabric-1.21.1",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "version": "0.5.0",
+      "file": "badlion-cosmetic-port-fabric-1.21.1-0.5.0.jar",
+      "sha256": "d6d7f4a11dca66433c56472bc91799ddceebd993c8c85e583ccdee08c4700e0c",
+      "bytes": 148060,
+      "classMajor": 65,
+      "minimumJava": 21
+    }
+  ],
+  "assetCatalogSha256": "c93c05ea96dbc8085f6a368088a741ff88d4c38a5f7e49d5c696e302c04566d1",
+  "packs": 2818,
+  "assetBundle": "external; required",
+  "preservedRollbackArtifacts": [
+    "badlion-cosmetic-port-forge-0.4.0.jar",
+    "badlion-cosmetic-port-0.3.6.jar"
+  ]
+}

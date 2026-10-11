@@ -1,0 +1,1 @@
+package net.badlion.a; public class aCE { public static class b {} }

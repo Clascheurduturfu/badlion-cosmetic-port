@@ -1,0 +1,1 @@
+package net.badlion.a; public class bT {public static final Render lM=new Render(); public static class Render {public void y(float a,float x,float y,float z){}}}

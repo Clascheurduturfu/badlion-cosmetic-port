@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "local.badlioncosmeticport.mixin",
+  "refmap": "badlion-cosmetic-port-refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerSkinMixin",
+    "ShieldItemMixin",
+    "WeaponItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

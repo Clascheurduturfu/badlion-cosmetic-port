@@ -1,0 +1,124 @@
+{
+  "version": "0.1.3",
+  "built_at": "2026-10-10T16:09:48.304683",
+  "dll_sha256": "e9d670778f4bcb89b9bf4c74659df778af53f13313007f28d7e550acb6626f3f",
+  "dll_bytes": 443392,
+  "catalog_sha256": "56883a127d2d95d033d7a4f3fa176f49ab089750876d8b32b609b982723b8700",
+  "native_target_sha256": "c5a70f343b40c9b74859417788cdc643f2b8188eda38e8614c9810eb25cad72c",
+  "native_target_rva": "0x103740",
+  "imports": [
+    "KERNEL32.dll"
+  ],
+  "exports": [
+    {
+      "name": "GetFileVersionInfoA",
+      "ordinal": 1,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoA"
+    },
+    {
+      "name": "GetFileVersionInfoByHandle",
+      "ordinal": 2,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoByHandle"
+    },
+    {
+      "name": "GetFileVersionInfoExA",
+      "ordinal": 3,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoExA"
+    },
+    {
+      "name": "GetFileVersionInfoExW",
+      "ordinal": 4,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoExW"
+    },
+    {
+      "name": "GetFileVersionInfoSizeA",
+      "ordinal": 5,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoSizeA"
+    },
+    {
+      "name": "GetFileVersionInfoSizeExA",
+      "ordinal": 6,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoSizeExA"
+    },
+    {
+      "name": "GetFileVersionInfoSizeExW",
+      "ordinal": 7,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoSizeExW"
+    },
+    {
+      "name": "GetFileVersionInfoSizeW",
+      "ordinal": 8,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoSizeW"
+    },
+    {
+      "name": "GetFileVersionInfoW",
+      "ordinal": 9,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.GetFileVersionInfoW"
+    },
+    {
+      "name": "UnlockerGetStatus",
+      "ordinal": 18,
+      "forwarder": null
+    },
+    {
+      "name": "VerFindFileA",
+      "ordinal": 10,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerFindFileA"
+    },
+    {
+      "name": "VerFindFileW",
+      "ordinal": 11,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerFindFileW"
+    },
+    {
+      "name": "VerInstallFileA",
+      "ordinal": 12,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerInstallFileA"
+    },
+    {
+      "name": "VerInstallFileW",
+      "ordinal": 13,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerInstallFileW"
+    },
+    {
+      "name": "VerLanguageNameA",
+      "ordinal": 14,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerLanguageNameA"
+    },
+    {
+      "name": "VerLanguageNameW",
+      "ordinal": 15,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerLanguageNameW"
+    },
+    {
+      "name": "VerQueryValueA",
+      "ordinal": 16,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerQueryValueA"
+    },
+    {
+      "name": "VerQueryValueW",
+      "ordinal": 17,
+      "forwarder": "C:\\WINDOWS\\System32\\version.dll.VerQueryValueW"
+    }
+  ],
+  "tests_passed": [
+    "native hook and merged catalog",
+    "preserve owned records, active selections, custom data and unknown root fields",
+    "VERSION forwarding",
+    "unsupported prologue guard",
+    "missing and invalid catalog fallback",
+    "diagnostic stock passthrough",
+    "Java version skip",
+    "Gson 2.2.4 boolean and non-null per-cosmetic object regression"
+  ],
+  "limits": [
+    "v0.1.3 game acceptance and rendering pending",
+    "Visibility to others not verified"
+  ],
+  "installed_into_client": true,
+  "dependencies": {
+    "MinHook": "v1.3.4 c3fcafdc10146beb5919319d0683e44e3c30d537",
+    "json.hpp": "v3.11.3 9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6"
+  },
+  "reportScope": "Historical v0.1.3 build; confirmed archive preserved; dist/version.dll is now v0.1.4"
+}

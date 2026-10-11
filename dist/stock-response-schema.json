@@ -1,0 +1,88 @@
+{
+  "fields": {
+    "cosmetics": {
+      "count": 68,
+      "samples": [
+        {
+          "fields": {
+            "active": {
+              "type": "boolean"
+            },
+            "cosmeticData": {
+              "fields": {},
+              "type": "object"
+            },
+            "cosmeticId": {
+              "type": "number"
+            },
+            "cosmeticType": {
+              "type": "string"
+            },
+            "globalData": {
+              "fields": {
+                "color": {
+                  "type": "number"
+                },
+                "location": {
+                  "type": "number"
+                }
+              },
+              "type": "object"
+            },
+            "sourceData": {
+              "fields": {},
+              "type": "object"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "fields": {
+            "active": {
+              "type": "boolean"
+            },
+            "cosmeticData": {
+              "fields": {},
+              "type": "object"
+            },
+            "cosmeticId": {
+              "type": "number"
+            },
+            "cosmeticType": {
+              "type": "string"
+            },
+            "sourceData": {
+              "fields": {},
+              "type": "object"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "fields": {
+            "active": {
+              "type": "boolean"
+            },
+            "cosmeticData": {
+              "fields": {},
+              "type": "object"
+            },
+            "cosmeticId": {
+              "type": "number"
+            },
+            "cosmeticType": {
+              "type": "string"
+            },
+            "sourceData": {
+              "fields": {},
+              "type": "object"
+            }
+          },
+          "type": "object"
+        }
+      ],
+      "type": "array"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,1 @@
+package net.badlion.a; public interface aGf {boolean ez(float f); void bIw();float bIy();java.util.List<aGh> bIx();}

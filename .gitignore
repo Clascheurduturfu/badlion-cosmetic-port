@@ -1,0 +1,31 @@
+# Local caches, toolchains, game data and captures
+work/
+instances/
+**/build/
+**/.gradle*/
+**/run/
+**/logs/
+**/crash-reports/
+**/__pycache__/
+*.pyc
+exports/
+reference/
+# Transfer inventories describe local archives rather than the source checkout
+HANDOFF-MANIFEST.json
+HANDOFF-REFERENCE-MANIFEST.json
+# Release artifacts belong in a release bundle, not source history
+release/*.jar
+dist/*.dll
+dist/cosmetics.json
+*.zip
+*.tar.gz
+*.log
+# IDE / operating system / local secrets
+.DS_Store
+.idea/
+*.iml
+.vscode/
+.env
+.env.*
+# Gradle wrappers are required source dependencies
+!**/gradle/wrapper/gradle-wrapper.jar
